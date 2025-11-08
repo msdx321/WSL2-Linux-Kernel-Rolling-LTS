@@ -2,8 +2,6 @@ name: LTS Kernel CI
 
 on:
   push:
-    tags:
-      - 'linux-wsl-lts-6.12.[0-9]+'
 
 run-name: LTS Release Build ${{ github.ref_name }}
 
